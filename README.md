@@ -1,5 +1,5 @@
 #  [School of AI ](https://www.theschool.ai)
-![School of AI](resource/School-of-ai-logo.png)
+![School of AI](01-Meetup-Introductory/resource/School-of-ai-logo.png)
 
 ## Introductory meet-up 
 
