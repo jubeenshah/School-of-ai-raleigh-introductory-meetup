@@ -13,7 +13,7 @@ This section consists of the list of resources used in the introductory meet-up 
 * [Tao Wang](https://www.linkedin.com/in/tao-wang-9b2a5316) — Sr. Manager at Artificial intelligence and machine learning R&D decision at SAS
 
 ###  Presentations
-* List of presentation links to be updated 
+* List of presentation links will be updated after the meetup 
 
 ###  Links 
 * Want to learn about markdown. Visit [this](https://daringfireball.net/projects/markdown/basics) site for information regarding formatting your Jupiter notebooks. 
@@ -27,7 +27,7 @@ This section consists of the list of resources used in the introductory meet-up 
 * [AI Flappy bird](https://github.com/yenchenlin/DeepLearningFlappyBird)
 	* Please note that you need to have anaconda installed on your PC for easy installation of dependencies. 
 		* **It is perfectly fine if you don’t understand what is going on**
-* 
+        
 ###  Tools 
 * Anaconda (Version >5.0, python version 3.x)
 	* **About**
@@ -48,7 +48,7 @@ This section consists of the list of resources used in the introductory meet-up 
 	* [Example](https://github.com/jubeenshah/tensorflow-projects/blob/master/04_Uda/02_ConvolutionalNeuralNetworks/07_ConvolutionalNetworks/06_ConvolutionalNetworkInTensorFlow/06_Convolutional-Network-in-TensorFlow.ipynb)
 		* Want to learn about markdown. Visit [this](https://daringfireball.net/projects/markdown/basics) site for information regarding formatting your Jupiter notebooks.
 			* There are some [magic keywords](http://ipython.readthedocs.io/en/stable/interactive/magics.html) for you to use in the notebooks. I’ll leave it for you to explore. 
-			* 
+
 
 
 ###  Additional reading before next meet-up 
@@ -73,17 +73,25 @@ If nothing go through athese web pages. And make sure you bookmark them for easy
 
 * [Python course](https://www.udacity.com/course/programming-foundations-with-python—ud036) 
 * [Numpy, pandas, matplotlib](https://www.udacity.com/course/intro-to-data-analysis—ud170) 
-* 
+
 
 ###  Books 
 * [Deep learning book ](http://www.deeplearningbook.org/)
 * [Neural Networks and DeepLearning](http://neuralnetworksanddeeplearning.com/) 
 	* Free online book for you to learn more about deep learning 
- * 
+ 
 
 ###  Siraj Raval
 * [School of AI](https://www.theschool.ai)
 * [LinkedIn](https://www.linkedin.com/in/sirajraval)
 * [YouTube](https://www.youtube.com/c/sirajraval) 
 * [Twitter](https://twitter.com/sirajraval)
+
+### Jubeen Shah
+* [Facebook Group](https://m.facebook.com/groups/school.of.ai.raleigh/)
+* [Meetup Group](http://meetu.ps/c/442kX/GGYTz/a)
+* [LinkedIn](https://www.linkedin.com/in/jubeen-shah/)
+* [Instagram](https://www.instagram.com/jubeen_shah/) 
+* [Github](https://github.com/jubeenshah)
+
 
