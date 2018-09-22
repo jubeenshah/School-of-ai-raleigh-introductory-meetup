@@ -42,10 +42,10 @@ This section consists of the list of resources used in the introductory meet-up 
 	* To understand how to use anaconda please visit this [site](https://docs.anaconda.com/anaconda/navigator/k)
 	* For environment creation and management please go through [this link](https://conda.io/docs/user-guide/tasks/manage-environments.html). Get a gist of the basics required for installation and management of environments. 
 		* If you prefer videos. [This](https://youtu.be/EGaw6VXV3GI) provides a very good summary for you to follow. 
-* [Jupiter Notebooks](http://jupyter.org/)
+* [Jupyter Notebooks](http://jupyter.org/)
 	* This is a very interactive tool of learning and teaching python programming. 
 	* Good thing is, it comes preinstalled with anaconda. So you don’t have to install anything else. 
-	* [Example](https://github.com/jubeenshah/tensorflow-projects/blob/master/04_Uda/02_ConvolutionalNeuralNetworks/07_ConvolutionalNetworks/06_ConvolutionalNetworkInTensorFlow/06_Convolutional-Network-in-TensorFlow.ipynb)
+	* [Example](https://github.com/jubeenshah/School-of-ai-raleigh/blob/master/01-Meetup-Introductory/Demo/01-Regression.ipynb)
 		* Want to learn about markdown. Visit [this](https://daringfireball.net/projects/markdown/basics) site for information regarding formatting your Jupiter notebooks.
 			* There are some [magic keywords](http://ipython.readthedocs.io/en/stable/interactive/magics.html) for you to use in the notebooks. I’ll leave it for you to explore. 
 
@@ -71,8 +71,11 @@ If nothing go through athese web pages. And make sure you bookmark them for easy
 
 ###  Courses 
 
-* [Python course](https://www.udacity.com/course/programming-foundations-with-python—ud036) 
-* [Numpy, pandas, matplotlib](https://www.udacity.com/course/intro-to-data-analysis—ud170) 
+* [Python cours -- Foundation](https://www.udacity.com/course/programming-foundations-with-python--ud036) 
+* [Python course -- Introduction](https://www.udacity.com/course/introduction-to-python--ud1110)
+* [Numpy, pandas, matplotlib](https://www.udacity.com/course/intro-to-data-analysis--ud170) 
+* [Google ai](https://ai.google/education/)
+
 
 
 ###  Books 
