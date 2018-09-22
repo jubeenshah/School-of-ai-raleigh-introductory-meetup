@@ -1,0 +1,85 @@
+# Git and GitHub
+
+In this chapter, I want to introduce you to using giHub, to things such as version control, Clone repositories, merge repositories, fork, pull requests, and whole bunch of other interesting things.
+
+## Version Control
+
+Version control in the simplest form. Let's say that I create a new code file and I write a few lines in it. Now I decide to put it under version control using `git`. And let's say that I call this save point as number one. Now this is my `first version`. Later on as I progress. I write maybe a few more lines of code and at this point I decide to make another save point and I call this my `second version`. 
+
+So further down the line I accidentally screw up my entire code file and it's irrepairable and I get to the point where I would rather **burn** my entire code file rather than having to try and fix it. You do get into these situations because very often your code is interlinked and each class depends on another and sometimes you can screw up in a way where you know all hope is lost and I simply just want to roll back to the last save point. I can do that using git. I can do that using other tools as well. But the most popular tool and the one that we're going to be talking about is get.
+
+## Installing Git
+
+To keep this tutorial much concise, I will not get into the details of installing git. If however, you need help to install `git` onto you pc I would recommend going through [this link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+## Version Control using Git
+
+Assuming, that you have `git` installed, let us move ahead. Again, to keep this chapter concise I will not be talking about how to use git on `Windows` (Sorry, Windows users). Just `MacOS`. However, if you use windows, you can go through [this video](https://www.youtube.com/watch?v=SWYqp7iY_Tc), which is like a crash course to using `git`. For other users please follow along.
+
+Open your terminal. 
+
+	cd Desktop/
+	mkdir Test
+	cd Test/
+	
+![Terminal 1](resource/terminal-1.png)
+
+	git init
+
+This is to initialize the `git` repository in the `Test` directory. Then I would ask you to manuall create a text file in the `Test` folder. Just write some random text in it and save it. Alternatively, you can use the `vim` command for doing the same.
+
+	vim Test.txt
+
+Then type in the text, once done; hit `esc` type in `:wq` and then hit `return` / `enter`
+
+	git status
+	
+This command will tell you that, there some `untracked` files in the repository.
+
+	git add Test.txt
+	
+![Terminal 2](resource/terminal-2.png)
+
+	git status
+	
+Now it will show you that a new file is added to the branch. Now you commit the changes
+
+	git commit -m "Wrote down Text.txt"
+	git log
+
+The `git commit` would help you to commit the changes to your repository, just like you do in a "relationship", you're bound to him/her. 
+
+Unless you're like my Ex who has "commitment" issues. 
+
+You **Should** use the option `-m` to write commit messages. These messages would help you in the future to recognize the changes that you've made to the file. Then you can use the `git log` command to show you the entire log of all the `commits` that you have ever made.
+
+![Terminal 3](resource/terminal-3.png)
+
+As you can see there is a `hash` code, also  you see who the Author is, and additionally you get the information such as the timestamp. So, unlike a real relationship, you can actually rollback to a previous stage in your `commitment` using the hash code.
+
+I repeated the same steps again, just using one different command
+
+	git add .
+
+![Terminal 4](resource/terminal-4.png)
+
+
+To summarize :
+
+* So the working directory is the one in which you have created the `.*txt` files. 
+* Then we push the files to the staging area using the `git add .` command. 
+* Then we push the it to the `local repository` using the `git commit -m "" ` command
+
+Now I have made some changes in the Test3.txt file but it is something that I do not want to commit to the local repo. To find the difference we can use the command :
+
+	git diff Test3.txt
+	
+![Terminal 5](resource/terminal-5.png)
+
+These are some changes if you don't want to commit. You can simply use the command :
+	
+	git checkout Test3.txt
+
+![Terminal 6](resource/terminal-6.png)
+
+You can see that the roll back happens as soon as you hit enter. Now don't you wish there was something like this in your relationship. 
