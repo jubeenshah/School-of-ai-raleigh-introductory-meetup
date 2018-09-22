@@ -14,6 +14,7 @@ This section consists of the list of resources used in the introductory meet-up 
 
 ###  Presentations
 * List of presentation links will be updated after the meetup 
+[Here](https://github.com/jubeenshah/School-of-ai-raleigh/tree/master/01-Meetup-Introductory/00-Presentations)
 
 ###  Links 
 * Want to learn about markdown. Visit [this](https://daringfireball.net/projects/markdown/basics) site for information regarding formatting your Jupiter notebooks. 
