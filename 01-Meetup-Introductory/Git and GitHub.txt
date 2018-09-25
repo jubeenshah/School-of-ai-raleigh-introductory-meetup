@@ -1,6 +1,6 @@
 # Git and GitHub
 
-In this chapter, I want to introduce you to using giHub, to things such as version control, Clone repositories, merge repositories, fork, pull requests, and whole bunch of other interesting things.
+In this chapter, I want to introduce you to GitHub, to things such as version control, Cloning repositories, merge repositories, fork, pull requests, and whole bunch of other interesting things.
 
 ## Version Control
 
@@ -82,4 +82,39 @@ These are some changes if you don't want to commit. You can simply use the comma
 
 ![Terminal 6](resource/terminal-6.png)
 
-You can see that the roll back happens as soon as you hit enter. Now don't you wish there was something like this in your relationship. 
+You can see that the roll back happens as soon as you hit enter. Now don't you wish there was something like this in your relationship. However, it should be noted that this repository is locally available. A better way to use `GitHub` is to use its `remote repositories` functionality.
+
+## GitHub and Remote Repositories
+
+Now, let's talk about using remote repositories using github. For using this awesome site, you would have to go to [Github.com](https://github.com) and use that pretty form on the right to set up an account on GitHub. All you need is you email address.
+
+Sign in to you account, and the top right hand side, near your identicon, there should be `+` symbol. Click there, followed by the `New repository` option.
+
+![Create a New repository - 1](resource/terminal-7.png)
+
+* Add a`repoistory` name
+* Add a `description`
+* By default the deployment option is `Public`
+* Click on `Create my repository`
+
+![Create a New repository - 2](resource/terminal-8.png)
+
+Now you will have a `Quick setup` page shown to you. If you are a big GUI fan, please by all means download the App for Mac or Windows, or you can carry on with the Command Line Interface (CLI) we have been using till now. 
+
+![Quick setup](resource/terminal-9.png)
+
+If you have followed this chapter diligently, you already have a `local repository` setup. So you can using the CLI commands from `push an existing repository from the command line`
+
+For me it is as follows
+
+	git remote add origin https://github.com/jubeenshah/Test.git
+	git push -u origin master
+	
+So you can copy and paste both the line into your terminal and hit enter. It will prompt you for the username and password. Enter it and you should be greeted with something like this
+
+![Terminal after pushing to GitHub](resource/terminal-10.png)
+
+
+That is it. You've successfully pushed a local repository onto GitHub. If you reload the page, on your browser you should see all the files that you added.
+
+![Files on GitHub](resource/terminal-11.png)
