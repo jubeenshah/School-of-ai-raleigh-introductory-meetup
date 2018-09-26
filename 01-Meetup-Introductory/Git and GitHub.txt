@@ -118,3 +118,32 @@ So you can copy and paste both the line into your terminal and hit enter. It wil
 That is it. You've successfully pushed a local repository onto GitHub. If you reload the page, on your browser you should see all the files that you added.
 
 ![Files on GitHub](resource/terminal-11.png)
+
+## Gitignore
+
+In this section we'll learn about how to set up the repository, in a way that certain files are ignored. 
+
+_Why do we need to do this?_ you might ask. Imagine this scenario. You have an Amazon AWS based application, making use of certain API keys. What if you push these API keys, to the the	 `remote repository` for everyone to see? Just keep imagining the possibilities.
+
+Let's see an example. Currently, the school-of-ai-introductory-meetup repository has a .DS_Store file. To give it to you quickly. That file is unecessary for everyone else except me.
+
+So what I would do is, go to the folder of the repository on my Mac. 
+
+	cd Desktop/Development/School-of-ai-raleigh/01-Meetup-Introductory
+	touch .gitignore
+	open .gitignore
+	
+Type in the file names, you do not want to be committed to the remote repository.
+
+![.gitignore](resource/terminal-12.png)
+
+To have a look at the complete list of pre-wrtitten `.gitignore` that you can make use of, visit [this repository](https://github.com/github/gitignore) by GitHub 
+
+## Git Clone
+
+This is simple to do. Very simple in-fact. Using the URL of the repository. go back to the terminal on you mac. Then you can use the command `git clone` + `URL`
+
+	git clone `URL`
+	
+That is it.
+
